@@ -1,0 +1,243 @@
+.hero {
+    background-color: darkblue; /* Dark Blue */
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin: 0 0 10px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    animation: fadeIn 3s ease-in-out;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: white;
+    color: darkblue;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: lightgray;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* styles.css */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+header {
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.services {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.services .service-item {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.hero {
+    background-color: darkblue; /* Dark Blue */
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Upload Document Section */
+.upload-document {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.upload-document h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.upload-document form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: grid;
+    gap: 15px;
+}
+
+.upload-document label {
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+}
+
+.upload-document input,
+.upload-document textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.upload-document button.submit-btn {
+    background-color: #7f5fc6;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.upload-document button.submit-btn:hover {
+    background-color: #a2a2ff;
+}
+
+/* Carousel */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 50px 20px;
+    background-color: darkblue;
+    color: white;
+}
+
+.carousel-item {
+    display: none;
+}
+
+.carousel-item.active {
+    display: block;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Testimonials */
+.testimonials {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonial-item {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 50px 20px;
+    background-color: #eaeaea;
+}
+
+.faq-item {
+    margin: 20px 0;
+}
+
+/* Footer */
+.footer-content {
+    text-align: center;
+    background-color: maroon;
+    color: white;
+    padding: 20px;
+}
+
+.footer-content .social-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+/* Social Media Icons */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    color: #fff;
+    font-size: 24px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+    color: #a2a2ff; /* Mauve Purple color on hover */
+}
+
+.social-icons a i {
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover i {
+    transform: rotate(360deg); /* Icon rotation effect */
+}
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rich Brothers Group Ltd</title>
+    <link rel="stylesheet" href="styles.css">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Rich Brothers Group Ltd</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      
+        <section class="hero">
+            <h2 id="hero-text"></h2>
+            <p>We provide efficient clearing and forwarding services tailored to your needs.</p>
+            <button onclick="alert('Thank you for choosing us!')">Get Started</button>
+         
+         
+        </section>
+      
+       <!-- Submit Document Section -->
+    <section class="upload-document">
+        <h2>Submit Your Document</h2>
+        <form action="submit_document.php" method="POST" enctype="multipart/form-data">
+            <label for="client-name">Client Name:</label>
+            <input type="text" id="client-name" name="client_name" placeholder="Enter Your Email" required>
+
+            <label for="document-file">Upload Document:</label>
+            <input type="file" id="document-file" name="document_file" required>
+
+            <label for="document-description">Document Description:</label>
+            <textarea id="document-description" name="document_description" placeholder="Provide a short description of your document..." required></textarea>
+
+            <button type="submit" class="submit-btn">Submit Document</button>
+        </form>
+    </section>
+
+
+ <section id="services" class="services">
+            <h3>Our Services</h3>
+            <div class="service-item">
+                <h4>Clearing & Forwarding</h4>
+                <p>Efficient and reliable services for your cargo.</p>
+            </div>
+            <div class="service-item">
+                <h4>Cargo Tracking</h4>
+                <p>Track your shipments in real-time.</p>
+            </div>
+            <div class="service-item">
+                <h4>Customs Documentation</h4>
+                <p>Hassle-free documentation services.</p>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
+            <h3>What Our Clients Say</h3>
+            <div class="testimonial-item">
+                <p>"Rich Brothers helped us clear our cargo faster than we expected. Highly recommended!"</p>
+                <h4>- ALLEN MTUI, CEO of TANZANIA CONGO GROUP SARL</h4>
+            </div>
+            <div class="testimonial-item">
+                <p>"Their customer service is outstanding. We trust them with all our logistics needs."</p>
+                <h4>- BASHIRU, CEO of INAFRIC CONSTRUCTION </h4>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="faq">
+            <h3>Frequently Asked Questions</h3>
+            <div class="faq-item">
+                <h4>What services do you provide?</h4>
+                <p>We provide clearing forwarding, cargo tracking, and customs documentation services.</p>
+            </div>
+            <div class="faq-item">
+                <h4>How can I track my cargo?</h4>
+                <p>We provide real-time cargo tracking tools that are easy to use.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+    <div class="footer-content">
+        <p>Contact us: +255 652 675 900 | +255 718 904 875</p>
+        <p>Follow us:</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+    <p>&copy; 2025 Rich Brothers Group Ltd. All rights reserved.</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
